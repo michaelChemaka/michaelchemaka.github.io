@@ -1,0 +1,316 @@
+:root{
+    
+ 
+    --mainColor: #04D7A2;
+    --secondaryColor: #1D214E;
+    --plainColor: #808080;
+
+    --bgColor: #f2f3f5;
+    
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*----------------------------------------------------------------------------
+header
+----------------------------------------------------------------------------*/
+.navbar{
+    padding-top: 1.3rem !important;
+    padding-bottom: 1.3rem !important;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+}
+header  .navbar-brand{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size:25px;
+    letter-spacing:3px;
+    color: #04D7A2 !important;
+}
+#mainNav.navbar-shrink {
+   
+    background-color: #ffffff;
+    border-bottom: 3px solid #faad3b;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+        font-size: 16px;
+        font-weight:bold;
+        letter-spacing: 2px;
+        color: #1D214E !important ;   
+}
+.navbar .nav-item .nav-link:hover{
+    background: #04D7A2;
+    padding: 6px 6px;
+    border-radius: 4px;
+    color: #fff !important;
+    }
+    .navbar-brand:hover{
+        color: #012970;
+    }
+
+
+
+/*----------------------------------------------------------------------------
+homeBanner Section
+-----------------------------------------------------------------------------*/
+.homeBanner{
+    min-width: 100vh;
+    overflow: hidden;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.right-column{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText{
+    margin-top:10rem;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+}
+.aboutText h1{
+    font-weight: 700;
+    color: #1D214E;
+    margin-bottom:1rem !important;
+}
+.aboutText h1 span{
+    color:#04D7A2 !important;
+}
+.aboutText p{
+    color:#1D214E;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom:1.3rem !important;
+}
+.roundIcons{
+
+width: 60px;
+height: 62px;
+line-height: 32px;
+font-size: 10px;
+text-align: center;
+display: inline-block;
+border-radius: 60px;
+
+padding:2px 1px;
+transition: all 0.3s ease;
+margin-right: 10px;
+cursor:pointer;
+}
+.roundIcons:hover{
+    cursor:pointer;
+    padding:3px 2px;
+    border:2.5px solid #04D7A2 !important;
+    background:#04D7A2;
+}
+.left-column{
+    padding: 20px;
+    
+}
+.profile-pic{
+    margin-top: 8rem;
+
+}
+.homeBanner .how-about{
+    padding: 20px;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: row;
+}
+.homeBanner .how-about div{
+    width: 3rem;
+    height: 10rem;
+    background-color: #04D7A2;
+    border-radius: 50px;
+
+    
+}
+.homeBanner .how-about .line1{
+transform: rotate(45deg) translate(-5px, 6px);
+}
+.homeBanner .how-about .line3{
+    background-color: #1D214E !important;
+    transform: rotate(45deg) translate(-5px, 6px);
+}
+.homeBanner .how-about .line4{
+    background-color: #1D214E !important;
+}
+/*--------------------------------------------------
+About section
+---------------------------------------------------*/
+.about{
+    min-width: 100vh;
+    background-color: #f2f3f5; 
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    overflow: hidden;
+    padding-bottom: 3rem !important
+}
+.about .top-heading h1{
+
+    color:#04D7A2;
+    padding: 20px;
+    margin-top:.8rem;
+}
+.about .right-side{
+    padding: 20px;
+}
+.about .right-side img{
+    margin-bottom: 3rem;
+}
+
+.about .right-side .resume-button .cv-button{
+background: #1D214E;
+color: #ffffff;
+font-weight: bold;
+border-radius: 60px;
+font-size: 18px;
+line-height: normal;
+overflow: hidden;
+padding: 12px;
+transition: all 0.4s ease
+}
+
+.about .right-side .resume-button .cv-button:hover{
+    color:#04D7A2;
+    cursor: pointer;
+}
+
+.about .left-side{
+    padding:20px
+}
+.about .personal-info p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color:#1D214E;
+    margin-bottom:1rem !important;
+}
+.about .personal-info h4{
+font-weight: 600;
+color:#04D7A2 !important;
+ margin-bottom: 1rem;
+}
+.about .personal-info .progress{
+ margin-bottom: 15px;
+ width: 80%;
+ height:16px;
+ border-radius:8px;
+ box-shadow:none;
+ background-color: #fff;
+
+}
+.about .personal-info .progress .progress-bar-warning{
+    background-color: #ffc107;
+}
+.about .personal-info .progress .progress-bar-blue{
+    background-color: #1D214E;
+}
+.about .personal-info .progress .progress-bar-danger{
+    background-color: #dc3545;
+}
+.about .personal-info .progress .progress-bar-info{
+    background-color: #04D7A2;
+}
+.about .personal-info .progress .progress-bar-purple{
+    background-color: #6f42c1;
+}
+.about .personal-info ul{
+    list-style: none;
+}
+.about .personal-info ul li{
+font-size: 18px;
+font-weight: 300;
+color:#1D214E;
+
+}
+/*-----------------------------------------------------------
+myWork Section
+------------------------------------------------------------*/
+.myProjects{
+    min-width: 100vh; 
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    padding-bottom: 3rem !important;
+
+}
+.myProjects .top-heading h1{
+
+    color:#04D7A2;
+    padding: 20px;
+    margin-top:.8rem;
+}
+.myProjects .work-carousel{
+    padding:20px
+}
+
+.myProjects .carousel-indicators .active{
+    background-color: #04D7A2;
+}
+
+.myProjects .carousel-indicators li{
+    background-color: #1D214E;
+}
+
+/*---------------------------------------------------------------
+Contact Section
+----------------------------------------------------------------*/
+.contactMe{
+    min-width: 100vh;
+    background-color: #f2f3f5; 
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    overflow: hidden;
+    padding-bottom: 1rem !important
+
+}
+
+.contactMe .top-heading h1{
+
+    color:#04D7A2;
+    padding: 20px;
+    margin-top:.8rem;
+}
+
+.contactMe .contact-right{
+    padding: 20px;
+}
+.contactMe .contact-right img{
+    margin-bottom:.8rem;
+}
+.contactMe .contact-right a{
+    text-decoration:none;
+}
+.contactMe .contact-right .burger{
+    padding: 20px;
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25.5rem;
+}
+.contactMe .contact-right .burger div{
+    width: 60px;
+    height: 60px;
+    background-color: #04D7A2;
+    border-radius: 50px;
+
+}
+.contactMe .contact-right .burger .line2{
+    background-color: #6f42c1 !important;
+}
+.contactMe .contact-right .burger .line1{
+    background-color: #1D214E !important;
+}
+.contactMe .contact-right .burger .line2{
+    background-color: #6f42c1 !important;
+}
